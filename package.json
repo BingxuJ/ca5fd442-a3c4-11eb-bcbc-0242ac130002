@@ -1,8 +1,10 @@
 {
   "name": "find-longest-subsequence",
   "version": "1.0.0",
-  "description": "Function that takes one string input of any number of integers separated by single whitespace",
-  "scripts": {    
+  "description": "Function that takes one string input of any number of integers separated by single whitespace and outputs the longest increasing subsequence (increased by any number) present in that sequence",
+  "scripts": {
+    "lint": "eslint .",
+    "test": "npm run lint && jest --coverage"
   },
   "repository": {
     "type": "git",
