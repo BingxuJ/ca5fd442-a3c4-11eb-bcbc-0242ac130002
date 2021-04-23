@@ -1,0 +1,16 @@
+# Find longest subsequence function test actions
+name: longest-subsequence-actions
+on:
+  push:
+    branches:
+      - main
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v1
+        with:
+          node-version: 14.16.1
+      - run: npm install
+      - run: npm test
