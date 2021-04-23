@@ -1,0 +1,21 @@
+{
+  "name": "find-longest-subsequence",
+  "version": "1.0.0",
+  "description": "Function that takes one string input of any number of integers separated by single whitespace",
+  "scripts": {    
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BingxuJ/ca5fd442-a3c4-11eb-bcbc-0242ac130002.git"
+  },
+  "author": "Bingxu Jin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BingxuJ/ca5fd442-a3c4-11eb-bcbc-0242ac130002/issues"
+  },
+  "homepage": "https://github.com/BingxuJ/ca5fd442-a3c4-11eb-bcbc-0242ac130002#readme",
+  "devDependencies": {
+    "eslint": "^7.24.0",
+    "jest": "^26.6.3"
+  }
+}
